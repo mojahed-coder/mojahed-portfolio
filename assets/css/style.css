@@ -161,6 +161,9 @@ a:hover {
 /*start scaling box upon hovering*/
 .service-box:hover {
   transform: scale(1.1);
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*end scaling box upon hovering*/
 
@@ -284,8 +287,11 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);;
   margin: 0 auto;
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /*--/ Title Left /--*/
@@ -302,9 +308,12 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);;
   width: 100px;
   bottom: -12px;
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /*------/ Box /------*/
@@ -1161,7 +1170,10 @@ a:hover {
 }
 
 .php-email-form button[type="submit"]:hover {
-  background-image: linear-gradient(to top, #a8eb12, #00bf72, #008793, #004d7a, #051937);
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 @-webkit-keyframes animate-loading {
