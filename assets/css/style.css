@@ -158,6 +158,21 @@ a:hover {
 /*end animation*/
 
 
+/*start scaling box upon hovering*/
+.service-box:hover {
+  transform: scale(1.1);
+}
+/*end scaling box upon hovering*/
+
+/*start service background-color*/
+#service {
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to top, #0083B0, #00B4DB);
+    background: linear-gradient(to top, #0083B0, #00B4DB);
+}
+/*end service background-color*/
+
+
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -199,7 +214,10 @@ a:hover {
 }
 
 .overlay-mf {
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .overlay-mf {
@@ -1382,7 +1400,10 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 footer .copyright {
